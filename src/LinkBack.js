@@ -5,7 +5,7 @@ class LinkBack extends Component {
   
   render() {
     return (
-      <Link to="/" className="btn"> &#8592; Buy more things</Link>
+      <Link to="/" style={{color: "blue"}}>&#8592; Buy more things</Link>
     );
   }
 }

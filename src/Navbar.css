@@ -1,0 +1,20 @@
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  background-color: red;
+  
+}
+
+.btn-nav {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.active-nav {
+  text-decoration: underline;
+  font-weight: bold;
+}
