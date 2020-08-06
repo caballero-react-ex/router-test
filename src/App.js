@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 import VendingMachine from './VendingMachine';
 import Chip from './Chip';
@@ -10,6 +9,7 @@ import Bifi from './Bifi';
 function App() {
   return (
     <div className="App">
+      
       <Switch>
         <Route exact path='/' component={VendingMachine} />
         <Route exact path='/chip' component={Chip} />
